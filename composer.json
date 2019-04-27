@@ -1,0 +1,20 @@
+{
+    "name": "loger/phpapp01",
+    "description": "Basic php app based on PHP JS CSS Composer",
+    "type": "Project",
+    "require": {
+        "monolog/monolog": "^1.24"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "logernam",
+            "email": "logernam@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "app"
+        }
+    }
+}
