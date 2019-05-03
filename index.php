@@ -1,9 +1,6 @@
 <?php
 require __DIR__.'/vendor/autoload.php';
-
-use App\Controllers\PageController as Page;
-
-echo Page::show();
+require __DIR__.'/config.php';
 
 /**
  * Class
